@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_codigo5_ui/pages/login1_page.dart';
+import 'package:flutter_codigo5_ui/pages/login2_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter UI",
       debugShowCheckedModeBanner: false,
-      home: Login1Page(),
+      home: Login2Page(),
     );
   }
 }
