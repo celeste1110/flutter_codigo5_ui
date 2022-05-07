@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_codigo5_ui/pages/login1_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,7 +9,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: "Flutter UI",
+      debugShowCheckedModeBanner: false,
+      home: Login1Page(),
+    );
   }
 }
 
