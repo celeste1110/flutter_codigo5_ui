@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_codigo5_ui/pages/house_page.dart';
 import 'package:flutter_codigo5_ui/pages/login1_page.dart';
 import 'package:flutter_codigo5_ui/pages/login2_page.dart';
 import 'package:flutter_codigo5_ui/pages/parking_page.dart';
+import 'package:flutter_codigo5_ui/pages/sport_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter UI",
       debugShowCheckedModeBanner: false,
-      home: ParkinPage(),
+      home: HousePage(),
     );
   }
 }
